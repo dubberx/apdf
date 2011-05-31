@@ -2559,6 +2559,8 @@ sc_toggle_fullscreen(Argument* argument)
 
     Zathura.Global.mode = FULLSCREEN;
     fs = FALSE;
+
+    isc_abort(NULL);
   }
   else
   {
