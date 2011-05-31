@@ -4,7 +4,7 @@
 VERSION = 0.0.8.3
 
 # paths
-PREFIX ?= /usr
+PREFIX ?= /usr/local
 MANPREFIX ?= ${PREFIX}/share/man
 DESKTOPPREFIX ?= ${PREFIX}/share/applications
 
